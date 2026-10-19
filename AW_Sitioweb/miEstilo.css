@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(237, 216, 199);
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header{
+    background-image: url("images/Header_BG_Image.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.inicio-texto h1{
+    font-family: 'Roboto', italic;
+    margin-top: 40%;
+    font-size: 5rem;
+}
+.inicio-texto p{
+    font-size: 2rem;
+    margin-top: 2%;
+}
+.barra-categorias {
+    background-color: #f3e3dc;
+}
+
+.colecciones-img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.col-temporada {
+    background-color: #f3e3dc;
+}
+
+.texto-cursiva {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
+.col-temporada {
+    background-color: #f3ebe4;
+}
+
+.primavera-titulo {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
+.imagen-grande {
+    height: 100%;
+    min-height: 300px;
+    object-fit: cover;
+}
+
+/* Tarjetas */
+.tarjeta {
+    background-color: #edd6c6;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta-img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.tarjeta-texto {
+    padding: .75rem;
+    text-align: center;
+}
+
+.tarjeta-texto h3 {
+    font-size: .9rem;
+    margin: 0;
+}
+
+.tarjeta-texto p {
+    font-size: .75rem;
+    margin: 0;
+    color: #777;
+}
+
+/* Botón circulo */
+.btn-circulo {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b8a07e;
+    color: #fff;
+}
+.texto-cursiva h3{
+    font-size: 2rem;
+}
+
+.footer-site {
+    background-color: #f3e3dc;   /* mismo rosado de la barra de categorías */
+    color: #333;
+}
+
+.footer-marca,
+.footer-titulo {
+    font-family: "Playfair Display", serif;
+    font-style: italic;          /* igual que "Colección de primavera" */
+}
+
+.footer-marca {
+    font-size: 1.8rem;
+}
+
+.footer-titulo {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-texto {
+    font-size: .9rem;
+    color: #666;
+}
+
+.footer-link {
+    display: inline-block;
+    margin-bottom: .4rem;
+    font-size: .9rem;
+    color: #333;
+    text-decoration: none;
+    transition: color .2s;
+}
+
+.footer-link:hover {
+    color: #b8a07e;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #212529;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color .2s;
+}
+
+.footer-social:hover {
+    background-color: #b8a07e;
+    color: #fff;
+}
+
+.footer-linea {
+    border-color: #b8a07e;
+    opacity: .5;
+}
+
+.footer-copy {
+    font-size: .8rem;
+    color: #666;
+}

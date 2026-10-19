@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="DCG">
+    <meta name="description" content="Restaurante Royal Especialidades gastronómicas">
+    <meta name="keywords" content="Royal, Food, Comida de Autor, Especialidades, Gastronomía">
+    <title>Actividad-9</title>
+
+    <!--BTS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <!-- CSS-->
+    <link rel="stylesheet" href="miEstilo.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#">
+                <span class="fw-bold">Shop</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Especialidades">Tienda</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://twitter.com"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+
+                <!-- Boton de menu desplegable -->
+                <button class="btn btn-dark ms-lg-3" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="bi bi-list"></i> Menú
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Offcanvas-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h2>Menú de Usuario</h2>
+        </div>
+
+        <div class="offcanvas-body">
+            <button class="btn btn-outline-dark" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-label="Abrir menú">
+                <i class="bi bi-cart3"></i>
+            </button>
+            <a class="ms-2" href="#">Carrito.</a>
+        </div>
+    </div>
+
+<!--Hero--->
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div class="inicio-texto">
+                    <h1 class="text-center">Eleva tu estilo</h1>
+                    <p class="text-center" >Descubre la moda que te define</p>
+                </div>
+
+                <!-- Botones centrados respecto al título -->
+                <div class="row justify-content-center g-2">
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-dark btn-lg">
+                            Comprar ahora
+                        </button>
+                    </div>
+
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-outline-dark btn-lg">
+                            Explorar más
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!--Barra de categorías -->
+<section class="barra-categorias py-3">
+    <ul class="nav justify-content-center">
+        <li class="nav-item"><a class="nav-link text-dark text-uppercase px-4 border-end" href="#">Ropa Casual</a></li>
+        <li class="nav-item"><a class="nav-link text-dark text-uppercase px-4 border-end" href="#">Vestidos</a></li>
+        <li class="nav-item"><a class="nav-link text-dark text-uppercase px-4 border-end" href="#">Accesorios</a></li>
+        <li class="nav-item"><a class="nav-link text-dark text-uppercase px-4" href="#">Zapatos</a></li>
+    </ul>
+</section>
+
+<!--Coleccion-->
+<section class="colecciones py-5">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-5 g-4 align-items-center text-center">
+
+            <div class="col">
+                <i class="bi bi-flower1 fs-3"></i>
+                <h3 class="fw-bold text-uppercase mt-2">Ropa<br>Casual</h3>
+                <hr class="mx-auto w-25">
+            </div>
+
+            <div class="col">
+                <img src="Images/Vestido_Noche.jpg" class="img-fluid colecciones-img">
+            </div>
+
+            <div class="col">
+                <i class="bi bi-brightness-high fs-3"></i>
+                <h3 class="fw-bold text-uppercase mt-2">Vestidos<br>Elegantes</h3>
+                <hr class="mx-auto w-25">
+            </div>
+
+            <div class="col">
+                <img src="Images/Ropa_Casual.jpg" class="img-fluid colecciones-img">
+            </div>
+
+
+            <div class="col">
+                <i class="bi bi-flower2 fs-3"></i>
+                <h3 class="fw-bold text-uppercase mt-2">Tendencias<br>de<br>Temporada</h3>
+                <hr class="mx-auto w-25">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Colección de temporada -->
+<section class="col-temporada py-5">
+    <div class="container">
+
+        <h2 class="texto-cursiva text-center mb-5">Colección de primavera</h2>
+
+        <div class="row g-3 mb-3">
+            <div class="col-12 col-lg-6">
+                <img src="Images/Primavera_1.jpg" class="img-fluid w-100 imagen-grande" alt="Colección primavera">
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <article class="tarjeta">
+                    <img src="Images/Primavera_2.jpg" class="tarjeta-img" alt="Ropa cómoda">
+                    <div class="tarjeta-texto">
+                        <h3>Ropa Cómoda</h3>
+                        <br>
+                        <p>Un estilo de vestir cómodo y fresco para el día a día</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <article class="tarjeta">
+                    <img src="Images/Primavera_3.jpg" class="tarjeta-img" alt="Ropa casual">
+                    <div class="tarjeta-texto">
+                        <h3>Ropa casual</h3>
+                        <br>
+                        <p>Ropa apta para el día a día</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-12 col-lg-3 d-flex flex-column justify-content-center align-items-start p-4">
+                <div class="align-self-center mb-3">
+                    <h3 class="fw-light">
+                        Encuentra tu <br>
+                        <h3 class="texto-cursiva text-center">Estilo</h3>
+                    </h3>
+                </div>
+                <p class="small text-center">Encuentra tu look ideal esta temporada.</p>
+                <a href="#" class="btn btn-circulo rounded-circle align-self-center">Ver</a>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <article class="tarjeta">
+                    <img src="Images/Primavera_4.jpg" class="tarjeta-img" alt="Vestimenta formal">
+                    <div class="tarjeta-texto">
+                        <h3>Ropa formal</h3>
+                        <p>Ropa fresca, libre y elegante</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <article class="tarjeta">
+                    <img src="Images/Primavera_5.jpg" class="tarjeta-img" alt="Ropa para casa">
+                    <div class="tarjeta-texto">
+                        <h3>Ropa para casa</h3>
+                        <p>Ropa cómoda para estar en casa fresca</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-12 col-lg-3">
+                <article class="tarjeta">
+                    <img src="Images/Primavera_6.jpg" class="tarjeta-img" alt="Look elegante">
+                    <div class="tarjeta-texto">
+                        <h3>Ropa de Noche</h3>
+                        <p>Ropa elegante para ocasiones especiales</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+    </div>
+</section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<footer class="footer-site pt-5">
+    <div class="container">
+        <div class="row g-4 text-center text-md-start">
+
+
+            <div class="col-12 col-md-4">
+                <h3 class="footer-marca fw-bold">Shop</h3>
+                <p class="footer-texto">Descubre la moda que te define. Eleva tu estilo con cada temporada.</p>
+            </div>
+            <div class="col-6 col-md-2">
+                <h4 class="footer-titulo">Navegación</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="footer-link">Inicio</a></li>
+                    <li><a href="#Especialidades" class="footer-link">Tienda</a></li>
+                    <li><a href="#" class="footer-link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <h4 class="footer-titulo">Categorías</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="footer-link">Casual wear</a></li>
+                    <li><a href="#" class="footer-link">Dresses</a></li>
+                    <li><a href="#" class="footer-link">Accessories</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-3">
+                <h4 class="footer-titulo">Síguenos</h4>
+                <div class="d-flex justify-content-center justify-content-md-start gap-2">
+                    <a href="https://www.instagram.com" class="footer-social" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.facebook.com" class="footer-social" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://twitter.com" class="footer-social" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="footer-linea mt-4">
+
+        <p class="text-center footer-copy mb-0 pb-4">
+            &copy; 2026 Shop. Todos los derechos reservados.
+        </p>
+    </div>
+</footer>
+</html>
