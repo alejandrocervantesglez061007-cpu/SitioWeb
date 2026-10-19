@@ -110,14 +110,14 @@ header{
 }
 
 .footer-site {
-    background-color: #f3e3dc;   /* mismo rosado de la barra de categorías */
+    background-color: #f3e3dc;
     color: #333;
 }
 
 .footer-marca,
 .footer-titulo {
     font-family: "Playfair Display", serif;
-    font-style: italic;          /* igual que "Colección de primavera" */
+    font-style: italic;
 }
 
 .footer-marca {
